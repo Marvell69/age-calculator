@@ -73,3 +73,24 @@ span {
   color: hsl(259, 100%, 65%);
   letter-spacing: 5px;
 }
+@media only screen and (max-width: 500px) {
+  body {
+    margin: 10px;
+  }
+  .line2 {
+    flex-direction: column;
+  }
+  .svg {
+    position: absolute;
+  }
+  hr {
+    margin-top: 2rem;
+  }
+  .input-box {
+    width: 4.5rem;
+  }
+  .results {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+}
