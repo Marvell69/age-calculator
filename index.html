@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="line1">
+        <form>
+          <label class="lab">DAY</label>
+          <input type="number" class="input-box" id="year" placeholder="DD" />
+          <small class="error-day"></small>
+        </form>
+        <form>
+          <label class="lab">MONTH</label>
+          <input type="number" class="input-box" id="month" placeholder="MM" />
+          <small class="error-month"></small>
+        </form>
+        <form>
+          <label class="lab">YEAR</label>
+          <input type="number" class="input-box" id="year" placeholder="YYYY" />
+          <small class="error-year"></small>
+        </form>
+      </div>
+      <div class="line2">
+        <hr class="hr" />
+        <button class="svg" type="button" onclick="calcAge()">
+          <img src="./assets/images/icon-arrow.svg" / alt="logo">
+        </button>
+      </div>
+      <div class="results">
+        <h1><span class="result-year"> --</span>years</h1>
+        <h1><span class="result-month"> --</span>months</h1>
+        <h1><span class="result-day"> --</span>days</h1>
+      </div>
+    </div>
+  </body>
+</html>
