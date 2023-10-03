@@ -26,8 +26,8 @@ body {
 }
 input::placeholder {
   font-weight: bold;
-  font-size: 1.5rem;
-  padding-left: 10px;
+  font-size: 1.2rem;
+  /* padding-left: 10px; */
 }
 .line1 {
   display: flex;
@@ -41,6 +41,8 @@ input::placeholder {
   border-radius: 0.4rem;
   border: 1px solid rgba(0, 0, 0, 0.338);
   cursor: pointer;
+  font-size: 20px;
+  text-indent: 8px;
 }
 
 .line2 {
@@ -63,6 +65,10 @@ hr {
 .svg:hover {
   cursor: pointer;
   background-color: black;
+}
+
+.svg:active {
+  transform: scale(0.95);
 }
 .results {
   font-family: "Poppins", sans-serif;
